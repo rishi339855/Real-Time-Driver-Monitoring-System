@@ -73,7 +73,6 @@ The app will open in your browser at [http://localhost:8501](http://localhost:85
 ├── requirements.txt      # Python dependencies
 ├── detector/             # Drowsiness, yawn, phone detection modules
 ├── db.py                 # Database functions (MongoDB)
-├── email_utils.py        # Email alert utilities
 ├── alert.wav             # Alert sound file
 └── ...
 ```
@@ -94,12 +93,6 @@ The app will open in your browser at [http://localhost:8501](http://localhost:85
 
 ---
 
-## 📧 Email Alerts
-
-- Uses SendGrid SMTP for sending alerts to managers.
-- Configure your SendGrid API key in `app.py`.
-
----
 
 ## 🤝 Contributing
 
